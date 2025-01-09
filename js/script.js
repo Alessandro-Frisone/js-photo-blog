@@ -10,9 +10,11 @@ function addCard() {
                 const title = card.title;
                 const immage = card.url;
                 cardElm.innerHTML += `
-                    <div class="col bg-light mt-3" id="card">
-                        <img src="${immage}" alt="img">
-                        <p class="mt-2">${title}</p>
+                    <div class="col p-2">  
+                        <div class="bg-light mt-3 p-3" id="card">
+                            <img src="${immage}" alt="img">
+                            <p class="mt-2">${title}</p>
+                        </div>
                     </div>
                 `;
             });
