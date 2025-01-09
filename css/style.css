@@ -29,3 +29,7 @@ main{
     background-image: url('../img/cork.png');
     height: 100%;
 }
+.card_rot:hover{
+    transform: rotate(17deg);
+    transition: 0.7s;
+}
