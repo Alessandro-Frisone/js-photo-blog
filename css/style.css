@@ -40,6 +40,13 @@ main{
     transform: translate(-50%, 7%);
     z-index: 10;
 }
+.ms-shadow{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+/* OVERLAY */
 .card_rot:hover{
     transform: rotate(17deg) scale(1.1);
     transition: 0.7s;
@@ -47,9 +54,13 @@ main{
 .card_rot:hover .pin {
     display: none;
 }
-.ms-shadow{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+.overlay_img{
+    width: 600px;
+    height: 600px;
 }
 .hidden{
     display: none;
+}
+#overlay{
+    background-color: rgba(0, 0, 0, 0.5);
 }
