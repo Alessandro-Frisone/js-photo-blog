@@ -11,7 +11,7 @@ function addCard() {
                 const immage = card.url;
                 cardElm.innerHTML += `
                     <div class="col-lg-4 col-sm-6 col-12 p-2 card_rot">  
-                        <div class="bg-light mt-3 p-3" id="card">
+                        <div class="bg-light mt-3 p-3 ms-shadow">
                             <img src="${immage}" alt="img">
                             <p class="mt-2">${title}</p>
                         </div>
