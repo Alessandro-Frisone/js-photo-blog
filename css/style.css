@@ -56,8 +56,8 @@ main{
     display: none;
 }
 #overlay_img{
-    width: 600px;
-    height: 600px;
+    width: 900px;
+    height: 900px;
 }
 .hidden{
     display: none;
