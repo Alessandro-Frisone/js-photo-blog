@@ -1,5 +1,7 @@
 // DOM ELEMETS
 const cardElm = document.getElementById("card");
+const closeBtnElm = document.getElementById("btn-close")
+const overlayElm = document.getElementById("overlay")
 
 // FUNCTIONS
 function addCard() {
@@ -10,7 +12,7 @@ function addCard() {
                 const title = card.title;
                 const immage = card.url;
                 cardElm.innerHTML += `
-                    <div class="col-lg-4 col-sm-6 col-12 p-2 card_rot" id="inf_card">  
+                    <div class="col-lg-4 col-sm-6 col-12 p-2 card_rot mt-5" id="inf_card">  
                         <div class="bg-light mt-3 p-3 ms-shadow">
                             <img class="pin" src="./img/pin.svg" alt="Puntina">
                             <img src="${immage}" alt="img">
@@ -27,3 +29,6 @@ addCard();
 
 
 // EVENTS
+closeBtnElm.addEventListener("click", () => {
+    cardElm.classList.remove("hidden")
+})

@@ -27,7 +27,7 @@ header h1{
 /* MAIN */
 main{
     background-image: url('../img/cork.png');
-    height: 100%;
+    height: 1250px;
 }
 #inf_card{
     position: relative;
