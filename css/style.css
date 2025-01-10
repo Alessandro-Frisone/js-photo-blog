@@ -41,7 +41,7 @@ main{
     z-index: 10;
 }
 .card_rot:hover{
-    transform: rotate(17deg);
+    transform: rotate(17deg) scale(1.1);
     transition: 0.7s;
 }
 .card_rot:hover .pin {
