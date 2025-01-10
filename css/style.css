@@ -29,6 +29,17 @@ main{
     background-image: url('../img/cork.png');
     height: 100%;
 }
+#inf_card{
+    position: relative;
+}
+.pin{
+    width: 40px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 7%);
+    z-index: 10;
+}
 .card_rot:hover{
     transform: rotate(17deg);
     transition: 0.7s;
