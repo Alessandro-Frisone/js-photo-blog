@@ -54,7 +54,7 @@ main{
 .card_rot:hover .pin {
     display: none;
 }
-.overlay_img{
+#overlay_img{
     width: 600px;
     height: 600px;
 }
